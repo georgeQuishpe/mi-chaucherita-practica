@@ -24,7 +24,7 @@ public class Ingreso extends Movimiento{
 		this.categoria = categoria;
 	}
 	
-	public void save(Cuenta cuenta, Categoria cat, double valor, String concepto, Date fecha) {
+	public void guardarIngreso(Cuenta cuenta, Categoria cat, double valor, String concepto, Date fecha) {
 		
 	}
 	

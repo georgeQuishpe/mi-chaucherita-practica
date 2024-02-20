@@ -6,23 +6,23 @@ import java.util.List;
 
 public class Cuenta {
 	
-	private int id;
+	private Integer id;
 	private String nombre;
 	private double saldoTotal;
 	
 	private static List<Cuenta> cuentas = null;
 	
-	public Cuenta(int id, String nombre, double saldoTotal) {
+	public Cuenta(Integer id, String nombre, double saldoTotal) {
 		this.id = id;
 		this.nombre = nombre;
 		this.saldoTotal = saldoTotal;
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -41,15 +41,10 @@ public class Cuenta {
 	public void setSaldoTotal(double saldoTotal) {
 		this.saldoTotal = saldoTotal;
 	}
-	
-	/*public static List<Cuenta> getAll(){
-		List<Cuenta> cuentas = new ArrayList<Cuenta>();
-		
-		return cuentas;
-	}
-	*/
-	public Cuenta getById(int id) {
+
+	public Cuenta getById(Integer id) {
 		if (cuentas == null) {
+			cuentas = new ArrayList<Cuenta>();
 			cuentas.add(new Cuenta(1, "Pichincha", 100));
 			cuentas.add(new Cuenta(2, "Efectivo", 560));
 			cuentas.add(new Cuenta(3, "Pacífico", 766));
@@ -62,8 +57,5 @@ public class Cuenta {
 		}
 		return null;
 	}
-	
-	
-	
 
 }
