@@ -1,0 +1,314 @@
+/********** General **********/
+body{
+    background: #D5D8DC !important;
+    margin: 0;
+	font-family: sans-serif;
+	font-weight: 100;
+    height: 100%;
+}
+
+/****** Tipos de letra ******/
+.titulo {
+    font-family: "Almarai";
+    font-weight: 700;
+    margin: 0px;
+    font-size: 32px;
+    color: #FFF;
+}
+
+.subtitulo {
+    font-family: "Almarai";
+    font-weight: 700;
+    font-size: 24px;
+    color: #5e76f8;
+}
+
+.normal {
+    font-family: "Almarai";
+    font-weight: 700;
+    margin: 0px;
+    font-size: 16px;
+    color: #000;
+}
+
+.descripcion {
+    font-family: "Almarai";
+    font-weight: 300;
+    margin: 0px;
+    font-size: 12px;
+    color: #FFF;
+}
+
+.white_letter{
+    color: #FFF !important;
+}
+
+/****** Header Global ******/
+header{
+    background: rgb(59,137,255);
+    background: linear-gradient(90deg, rgba(59,137,255,1) 31%, rgba(127,99,241,1) 76%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+}
+
+/****** Mis categorias ******/
+.mis_categorias {
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+.categorias{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.blue-border {
+    border: 1px solid #3b89ff !important;
+    border-radius: 0rem 0rem 0.3rem 0.3rem;
+  }
+
+.blue-color {
+    background: #3b89ff
+}
+
+/****** Tarjetas ******/
+.border-degraded {
+    border: 1px solid #7f63f1 !important;
+    border-top: 0px !important;
+    border-left: solid #3b89ff !important;
+    border-bottom: solid #5e76f8 !important;
+    border-right: solid #5e76f8 !important;
+    border-radius: 0rem 0rem 0.3rem 0.3rem;
+  }
+
+.main-color-degraded {
+    background: rgb(59,137,255) !important;
+    background: linear-gradient(90deg, rgba(59,137,255,1) 31%, rgba(127,99,241,1) 76%) !important;
+}
+
+.button-account {
+    border-radius: 50%;
+    padding: 0.60rem;
+    width: auto;
+}
+
+.button-account:hover {
+    background: #D9D9D9;
+}
+
+.card-80-percent {
+    width: 80%;
+    margin: auto;
+}
+
+.space-below-form {
+    padding-top: 20px; /* Ajusta el valor según tus necesidades */
+}
+
+/********** Configuración **********/
+.configuracion{
+    align-items: center;
+    padding: 20px;
+}
+
+.configuracion i{
+    font-size: 3rem;
+    color: #3b89ff;
+}
+
+/********** Tablas **********/
+table {
+	font-size: 1rem;
+    background: #fff;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.header-bg {
+	background: rgb(59,137,255) !important;
+    background: linear-gradient(90deg, rgba(59,137,255,1) 31%, rgba(127,99,241,1) 76%) !important;
+}
+
+tbody, tr {
+	border-style: none !important;
+}
+
+.table-bordered {
+	border: 3px solid #7f63f1 !important;
+	border-top: 3px !important;
+	border-left: solid #3b89ff !important;
+	border-bottom: solid #5e76f8 !important;
+}
+
+.text-header-table tr th {
+	font-family: "Almarai";
+    font-weight: 700;
+    margin: 0px;
+    font-size: 16px;
+    color: #fff;
+	border-style: none !important;
+}
+
+.text-table  tr td {
+    font-family: "Almarai";
+    font-weight: 700;
+    margin: 0px;
+    font-size: 16px;
+    color: #000;
+	border-style: none !important;
+}
+
+
+/********** Botones/íconos **********/
+.return i{
+    font-size: 3rem;
+    color: #3b89ff;
+}
+.return:hover i {
+    color: #7f63f1;
+}
+.return:hover p {
+    color: #7f63f1;
+}
+.icons{
+	font-size: 28px;
+}
+.red-icon{
+	color: #FF0000;
+}
+.blue-icon{
+	color: #3b89ff;
+}
+.icons:hover{
+	color: #7f63f1;
+}
+
+.btn-azul {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #3b89ff; /* Color personalizado */
+    --bs-btn-border-color: #3b89ff; /* Color personalizado */
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #2d6fe5; /* Color personalizado */
+    --bs-btn-hover-border-color: #255ec8; /* Color personalizado */
+    --bs-btn-focus-shadow-rgb: 27,111,255; /* Color personalizado */
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #255ec8; /* Color personalizado */
+    --bs-btn-active-border-color: #204f9f; /* Color personalizado */
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #3b89ff; /* Color personalizado */
+    --bs-btn-disabled-border-color: #3b89ff; /* Color personalizado */
+}
+
+.btn-violetaOscuro {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #7f63f1; /* Color personalizado */
+    --bs-btn-border-color: #7f63f1; /* Color personalizado */
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #6b4ce5; /* Color personalizado */
+    --bs-btn-hover-border-color: #5c3ec8; /* Color personalizado */
+    --bs-btn-focus-shadow-rgb: 43,38,114; /* Color personalizado */
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #5c3ec8; /* Color personalizado */
+    --bs-btn-active-border-color: #4e349f; /* Color personalizado */
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #7f63f1; /* Color personalizado */
+    --bs-btn-disabled-border-color: #7f63f1; /* Color personalizado */
+}
+
+.btn_border{
+	border-top: solid #5e76f8 !important; 
+	border-radius: 15px !important;
+}
+
+.margin-btm0{
+    margin-bottom: 0px;
+}
+
+    /* Configuración */
+.boton:hover{
+    background: #3b89ff;
+    color: #FFF;
+}
+.boton:hover i {
+    color: #fff;
+}
+.boton:hover p {
+    color: #fff;
+}
+.return:hover i {
+    color: #7f63f1;
+}
+.return:hover p {
+    color: #7f63f1;
+}
+
+.boton p{
+    margin: 0;
+}
+
+.blue-border-radius {
+    border: 1px solid #3b89ff !important;
+    border-radius: 0.3rem;
+} 
+
+
+/********** Inputs **********/
+
+.fecha{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.fecha p{
+    margin: 0px;
+	padding: 0px;
+}
+
+/********** Media queries **********/
+@media only screen and (max-width: 768px) {
+	table {
+		font-size: 9px;
+		width: 100%;
+		margin-top: 2%;
+	}
+
+	.text-header-table tr th {
+		font-family: "Almarai";
+		font-weight: 700;
+		margin: 0px;
+		font-size: 9px;
+		color: #fff;
+	}
+	
+	.text-table  tr td {
+		font-family: "Almarai";
+		font-weight: 700;
+		margin: 0px;
+		font-size: 9px;
+		color: #000;
+	}
+
+	.fecha p{
+		font-size: 9px;
+	}
+
+	input {
+		font-size: 9px;
+		width: 150px; 
+		height: 25px;
+	}
+
+	.icons{
+		font-size: 15px;
+	}
+
+}
+	
